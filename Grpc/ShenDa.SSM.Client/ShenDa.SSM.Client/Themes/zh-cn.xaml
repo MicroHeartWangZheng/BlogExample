@@ -1,0 +1,72 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+
+    <sys:String x:Key="txtMyBuyTicket">我要购票</sys:String>
+    <sys:String x:Key="txtBillTakeTicket">订单取票</sys:String>
+    <sys:String x:Key="txtQueryPrice">票价查询</sys:String>
+    <sys:String x:Key="txtTicketInfo">门票信息</sys:String>
+    <sys:String x:Key="txtHelpCenter">帮助中心</sys:String>
+    <sys:String x:Key="txtCopyright">深大智能·智游宝</sys:String>
+    <sys:String x:Key="txtCheckTradeDate">选择游玩日期</sys:String>
+
+    <sys:String x:Key="txtSelTicketAndNum">选择票型及数量</sys:String>
+    <sys:String x:Key="txtConfirmBuyTicket">确认购买票型</sys:String>
+    <sys:String x:Key="txtPayment">付款</sys:String>
+    <sys:String x:Key="txtDealClose">交易完成</sys:String>
+    <sys:String x:Key="txtLoading">正在加载中。。。</sys:String>
+    <sys:String x:Key="txtTicketName">票型名称</sys:String>
+    <sys:String x:Key="txtTicketKindName">票种</sys:String>
+    <sys:String x:Key="txtTicketPrice">票价</sys:String>
+    <sys:String x:Key="txtNumber">数量</sys:String>
+    <sys:String x:Key="txtTotal">小计</sys:String>
+    <sys:String x:Key="txtTicketVote">票数（张）：</sys:String>
+    <sys:String x:Key="txtPayamount">支付总额（元）：</sys:String>
+    <sys:String x:Key="txtTradeDateLb">游玩日期：</sys:String>
+    <sys:String x:Key="txtBackMain">返回主界面</sys:String>
+    <sys:String x:Key="txtBack">上一步</sys:String>
+    <sys:String x:Key="txtNext">下一步</sys:String>
+    <sys:String x:Key="txtBankPay">银行卡支付</sys:String>
+    <sys:String x:Key="txtEcardPay">一卡通支付</sys:String>
+    <sys:String x:Key="txtTradeComplate">购票成功！</sys:String>
+    <sys:String x:Key="txtTradeComplateTake">取票成功！</sys:String>
+    <sys:String x:Key="txtTradeComplateInfo">请在自助机下方取票</sys:String>
+    <sys:String x:Key="txtHanding">正在处理出票，请稍后. . . . .</sys:String>
+    
+    <sys:String x:Key="txtBarcodeTake">二维码取票</sys:String>
+    <sys:String x:Key="txtIDcardTake">二代证取票</sys:String> 
+    <sys:String x:Key="txtCodeTake">辅助码取票</sys:String> 
+    <sys:String x:Key="txtIDcardFalse">二代身份证设备连接失败，请联系景区管理人员</sys:String>
+    <sys:String x:Key="txtIDcardTrue">二代身份证设备连接成功，请刷二代身份证</sys:String>
+    <sys:String x:Key="txtBarcodeFalse">彩信设备连接化失败，请联系景区管理人员</sys:String>
+    <sys:String x:Key="txtBarcodeTrue">彩信设备连接成功，请扫彩信条码</sys:String>
+    <sys:String x:Key="txtLinking">正在连接设备，请等待</sys:String>
+    <sys:String x:Key="txtTip">友情提示：一经售出,概不退票,当日取票,当日有效！</sys:String>
+    <sys:String x:Key="txtBillNoLb">订单号：</sys:String>
+    <sys:String x:Key="txtCode">辅助码：</sys:String>
+    <sys:String x:Key="txtQuery">查询</sys:String>
+
+    <sys:String x:Key="txtTakeType">选择取票方式</sys:String>
+    <sys:String x:Key="txtCheckOrder">选择订单</sys:String>
+    <sys:String x:Key="txtSelTakeTicket">选择取票票型</sys:String>
+    <sys:String x:Key="txtConfirmTakeTicket">确认取票票型</sys:String>
+    <sys:String x:Key="txtComplateTake">完成取票</sys:String>
+    <sys:String x:Key="txtBillNo">订单号</sys:String>
+    <sys:String x:Key="txtTradeDate">游玩日期</sys:String>
+    <sys:String x:Key="txtSelTradeDate6">领票人</sys:String>
+    
+    <sys:String x:Key="txtBuyTip">购票提示</sys:String>
+    <sys:String x:Key="txtBuyTicket">购票</sys:String>
+    <sys:String x:Key="txtTakeTicket">取票</sys:String>
+    <sys:String x:Key="txtCheck">选择</sys:String>
+    <sys:String x:Key="txtComfirmInfo">确认信息</sys:String>
+    <sys:String x:Key="txtCheckTicket">选择票型</sys:String>
+    <sys:String x:Key="txtPayOnline">在线支付</sys:String>
+    <sys:String x:Key="txtTakeComplate">取票完成</sys:String>
+    <sys:String x:Key="txtBuyComplate">购票完成</sys:String>
+
+    <sys:String x:Key="txtTicketNumIn">机内可用门票数（张）：</sys:String>
+    <sys:String x:Key="txtBillNumIn">机内可用小票数（张）：</sys:String>
+    <sys:String x:Key="txtTTRNumIn">机内可用碳带数（张）：</sys:String>
+</ResourceDictionary>

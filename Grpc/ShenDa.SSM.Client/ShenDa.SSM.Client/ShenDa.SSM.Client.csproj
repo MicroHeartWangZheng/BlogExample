@@ -1,0 +1,390 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\+.jpg" />
+    <None Remove="Images\-.jpg" />
+    <None Remove="Images\01.png" />
+    <None Remove="Images\02.png" />
+    <None Remove="Images\03.png" />
+    <None Remove="Images\04.png" />
+    <None Remove="Images\1-1.png" />
+    <None Remove="Images\1-2.png" />
+    <None Remove="Images\1-3.png" />
+    <None Remove="Images\1-4.png" />
+    <None Remove="Images\1-4c.png" />
+    <None Remove="Images\1-4c1.png" />
+    <None Remove="Images\1-4o.png" />
+    <None Remove="Images\1-5.png" />
+    <None Remove="Images\1-6.png" />
+    <None Remove="Images\1-7.png" />
+    <None Remove="Images\1-8.png" />
+    <None Remove="Images\1-9.png" />
+    <None Remove="Images\alipay_bg.png" />
+    <None Remove="Images\alipay_off.png" />
+    <None Remove="Images\alipay_on.png" />
+    <None Remove="Images\back.png" />
+    <None Remove="Images\back_light.png" />
+    <None Remove="Images\bank-off.png" />
+    <None Remove="Images\bank-on.png" />
+    <None Remove="Images\bg.jpg" />
+    <None Remove="Images\btnback.png" />
+    <None Remove="Images\btnback2.png" />
+    <None Remove="Images\btnok.png" />
+    <None Remove="Images\buy.png" />
+    <None Remove="Images\clear2.png" />
+    <None Remove="Images\clock.png" />
+    <None Remove="Images\delete.png" />
+    <None Remove="Images\er.png" />
+    <None Remove="Images\ExeIco.ico" />
+    <None Remove="Images\gwc.png" />
+    <None Remove="Images\help.png" />
+    <None Remove="Images\help_bg.jpg" />
+    <None Remove="Images\img.jpg" />
+    <None Remove="Images\insert.jpg" />
+    <None Remove="Images\jianpan.jpg" />
+    <None Remove="Images\kuang.jpg" />
+    <None Remove="Images\languageImg.png" />
+    <None Remove="Images\left.jpg" />
+    <None Remove="Images\left.png" />
+    <None Remove="Images\left_L.png" />
+    <None Remove="Images\logo.jpg" />
+    <None Remove="Images\logo_tm.png" />
+    <None Remove="Images\next.png" />
+    <None Remove="Images\num.png" />
+    <None Remove="Images\package_games_kids.png" />
+    <None Remove="Images\play.png" />
+    <None Remove="Images\pre.png" />
+    <None Remove="Images\print.jpg" />
+    <None Remove="Images\print.png" />
+    <None Remove="Images\print2.jpg" />
+    <None Remove="Images\printt.png" />
+    <None Remove="Images\query.png" />
+    <None Remove="Images\qupiao.jpg" />
+    <None Remove="Images\right.jpg" />
+    <None Remove="Images\right.png" />
+    <None Remove="Images\right_L.png" />
+    <None Remove="Images\ScreenPic\bg1.jpg" />
+    <None Remove="Images\ScreenPic\bg2.jpg" />
+    <None Remove="Images\sfz.png" />
+    <None Remove="Images\step_01.png" />
+    <None Remove="Images\step_02.png" />
+    <None Remove="Images\step_03.png" />
+    <None Remove="Images\step_04.png" />
+    <None Remove="Images\Stop.png" />
+    <None Remove="Images\take.png" />
+    <None Remove="Images\Tel.png" />
+    <None Remove="Images\tep.png" />
+    <None Remove="Images\tep01.png" />
+    <None Remove="Images\tep_bg.png" />
+    <None Remove="Images\tep_g.png" />
+    <None Remove="Images\time.png" />
+    <None Remove="Images\tk.jpg" />
+    <None Remove="Images\top_bg.png" />
+    <None Remove="Images\weixinbg.png" />
+    <None Remove="Images\weixinbg1.png" />
+    <None Remove="Images\winicon.ico" />
+    <None Remove="Images\wxpay_off.png" />
+    <None Remove="Images\wxpay_on.png" />
+    <None Remove="Images\yd.png" />
+    <None Remove="Sounds\001.wav" />
+    <None Remove="Sounds\002.wav" />
+    <None Remove="Sounds\003.wav" />
+    <None Remove="Sounds\004.wav" />
+    <None Remove="Sounds\005.wav" />
+    <None Remove="Sounds\006.wav" />
+    <None Remove="Sounds\007.wav" />
+    <None Remove="Sounds\008.wav" />
+    <None Remove="Sounds\009.wav" />
+    <None Remove="Sounds\010.wav" />
+    <None Remove="Sounds\011.wav" />
+    <None Remove="Sounds\012.wav" />
+    <None Remove="Sounds\013.wav" />
+    <None Remove="Sounds\014.wav" />
+    <None Remove="Sounds\015.wav" />
+    <None Remove="Sounds\016.wav" />
+    <None Remove="Sounds\017.wav" />
+    <None Remove="Sounds\018.wav" />
+    <None Remove="Sounds\019.wav" />
+    <None Remove="Sounds\020.wav" />
+    <None Remove="Sounds\021.wav" />
+    <None Remove="Sounds\022.wav" />
+    <None Remove="Sounds\023.wav" />
+    <None Remove="Sounds\024.wav" />
+    <None Remove="Sounds\025.wav" />
+    <None Remove="Sounds\026.wav" />
+    <None Remove="Sounds\027.wav" />
+    <None Remove="Sounds\028.wav" />
+    <None Remove="Sounds\029.wav" />
+    <None Remove="Sounds\030.wav" />
+    <None Remove="Sounds\031.wav" />
+    <None Remove="Sounds\032.wav" />
+    <None Remove="Sounds\033.wav" />
+    <None Remove="Sounds\034.wav" />
+    <None Remove="Sounds\035.wav" />
+    <None Remove="Sounds\036.wav" />
+    <None Remove="Sounds\037.wav" />
+    <None Remove="Sounds\038.wav" />
+    <None Remove="Sounds\039.wav" />
+    <None Remove="Sounds\040.wav" />
+    <None Remove="Sounds\041.wav" />
+    <None Remove="Sounds\043.wav" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Sounds\001.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\002.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\003.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\004.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\005.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\006.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\007.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\008.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\009.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\010.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\011.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\012.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\013.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\014.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\015.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\016.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\017.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\018.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\019.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\020.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\021.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\022.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\023.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\024.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\025.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\026.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\027.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\028.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\029.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\030.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\031.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\032.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\033.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\034.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\035.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\036.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\037.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\038.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\039.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\040.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\041.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\043.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Protobuf" Version="3.13.0" />
+    <PackageReference Include="Grpc.Core" Version="2.32.0" />
+    <PackageReference Include="Grpc.Net.Client" Version="2.31.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="3.1.8" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.8" />
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="3.1.8" />
+    <PackageReference Include="MvvmLight" Version="5.4.1.1" />
+    <PackageReference Include="MvvmLightLibs" Version="5.4.1.1" />
+    <PackageReference Include="ShenDa.SSM.Grpc" Version="1.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ShenDa.SSM.Common\ShenDa.SSM.Common.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\+.jpg" />
+    <Resource Include="Images\-.jpg" />
+    <Resource Include="Images\01.png" />
+    <Resource Include="Images\02.png" />
+    <Resource Include="Images\03.png" />
+    <Resource Include="Images\04.png" />
+    <Resource Include="Images\1-1.png" />
+    <Resource Include="Images\1-2.png" />
+    <Resource Include="Images\1-3.png" />
+    <Resource Include="Images\1-4.png" />
+    <Resource Include="Images\1-4c.png" />
+    <Resource Include="Images\1-4c1.png" />
+    <Resource Include="Images\1-4o.png" />
+    <Resource Include="Images\1-5.png" />
+    <Resource Include="Images\1-6.png" />
+    <Resource Include="Images\1-7.png" />
+    <Resource Include="Images\1-8.png" />
+    <Resource Include="Images\1-9.png" />
+    <Resource Include="Images\alipay_bg.png" />
+    <Resource Include="Images\alipay_off.png" />
+    <Resource Include="Images\alipay_on.png" />
+    <Resource Include="Images\back.png" />
+    <Resource Include="Images\back_light.png" />
+    <Resource Include="Images\bank-off.png" />
+    <Resource Include="Images\bank-on.png" />
+    <Resource Include="Images\bg.jpg" />
+    <Resource Include="Images\btnback.png" />
+    <Resource Include="Images\btnback2.png" />
+    <Resource Include="Images\btnok.png" />
+    <Resource Include="Images\buy.png" />
+    <Resource Include="Images\clear2.png" />
+    <Resource Include="Images\clock.png" />
+    <Resource Include="Images\delete.png" />
+    <Resource Include="Images\er.png" />
+    <Resource Include="Images\ExeIco.ico" />
+    <Resource Include="Images\gwc.png" />
+    <Resource Include="Images\help.png" />
+    <Resource Include="Images\help_bg.jpg" />
+    <Resource Include="Images\img.jpg" />
+    <Resource Include="Images\insert.jpg" />
+    <Resource Include="Images\jianpan.jpg" />
+    <Resource Include="Images\kuang.jpg" />
+    <Resource Include="Images\languageImg.png" />
+    <Resource Include="Images\left.jpg" />
+    <Resource Include="Images\left.png" />
+    <Resource Include="Images\left_L.png" />
+    <Resource Include="Images\logo.jpg" />
+    <Resource Include="Images\logo_tm.png" />
+    <Resource Include="Images\next.png" />
+    <Resource Include="Images\num.png" />
+    <Resource Include="Images\package_games_kids.png" />
+    <Resource Include="Images\play.png" />
+    <Resource Include="Images\pre.png" />
+    <Resource Include="Images\print.jpg" />
+    <Resource Include="Images\print.png" />
+    <Resource Include="Images\print2.jpg" />
+    <Resource Include="Images\printt.png" />
+    <Resource Include="Images\query.png" />
+    <Resource Include="Images\qupiao.jpg" />
+    <Resource Include="Images\right.jpg" />
+    <Resource Include="Images\right.png" />
+    <Resource Include="Images\right_L.png" />
+    <Resource Include="Images\ScreenPic\bg1.jpg" />
+    <Resource Include="Images\ScreenPic\bg2.jpg" />
+    <Resource Include="Images\sfz.png" />
+    <Resource Include="Images\step_01.png" />
+    <Resource Include="Images\step_02.png" />
+    <Resource Include="Images\step_03.png" />
+    <Resource Include="Images\step_04.png" />
+    <Resource Include="Images\Stop.png" />
+    <Resource Include="Images\take.png" />
+    <Resource Include="Images\Tel.png" />
+    <Resource Include="Images\tep.png" />
+    <Resource Include="Images\tep01.png" />
+    <Resource Include="Images\tep_bg.png" />
+    <Resource Include="Images\tep_g.png" />
+    <Resource Include="Images\time.png" />
+    <Resource Include="Images\tk.jpg" />
+    <Resource Include="Images\top_bg.png" />
+    <Resource Include="Images\weixinbg.png" />
+    <Resource Include="Images\weixinbg1.png" />
+    <Resource Include="Images\winicon.ico" />
+    <Resource Include="Images\wxpay_off.png" />
+    <Resource Include="Images\wxpay_on.png" />
+    <Resource Include="Images\yd.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="Themes\BaseDictionary.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\en-us.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\zh-cn.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+
+</Project>

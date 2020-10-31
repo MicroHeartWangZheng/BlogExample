@@ -1,0 +1,71 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="txtMyBuyTicket">BUY</sys:String>
+    <sys:String x:Key="txtBillTakeTicket">TAKE</sys:String>
+    <sys:String x:Key="txtQueryPrice">QUERY</sys:String>
+    <sys:String x:Key="txtTicketInfo">DETAIL</sys:String>
+    <sys:String x:Key="txtHelpCenter">HELP</sys:String>
+    <sys:String x:Key="txtCopyright">SendInfo Intelligent·Zhiyoubao</sys:String>
+    <sys:String x:Key="txtCheckTradeDate">select tour dates</sys:String>
+
+    <sys:String x:Key="txtSelTicketAndNum">TicketAndNum</sys:String>
+    <sys:String x:Key="txtConfirmBuyTicket">confirm  ticket type</sys:String>
+    <sys:String x:Key="txtPayment">cash</sys:String>
+    <sys:String x:Key="txtDealClose">deal closed</sys:String>
+    <sys:String x:Key="txtLoading">loading...</sys:String>
+    <sys:String x:Key="txtTicketName">Ticket type name</sys:String>
+    <sys:String x:Key="txtTicketKindName">Ticket type</sys:String>
+    <sys:String x:Key="txtTicketPrice">Price</sys:String>
+    <sys:String x:Key="txtNumber">Quantities</sys:String>
+    <sys:String x:Key="txtTotal">Total</sys:String>  
+    <sys:String x:Key="txtTicketVote">numbers：</sys:String>
+    <sys:String x:Key="txtPayamount">amount of payment：</sys:String>
+    <sys:String x:Key="txtTradeDateLb">tour dates：</sys:String>
+    <sys:String x:Key="txtBackMain">Back To Home</sys:String>
+    <sys:String x:Key="txtBack">Back</sys:String>
+    <sys:String x:Key="txtNext">Next</sys:String>
+    <sys:String x:Key="txtBankPay">Bank Card</sys:String>
+    <sys:String x:Key="txtEcardPay">ECard Pay</sys:String>
+    <sys:String x:Key="txtTradeComplate">Buy Ticket Success!</sys:String>
+    <sys:String x:Key="txtTradeComplateTake">Take Ticket Success!</sys:String>
+    <sys:String x:Key="txtTradeComplateInfo">Please collect the tickets at the bottom of the self-service machine</sys:String>
+    <sys:String x:Key="txtHanding">Please wait a ticket is processing</sys:String>
+
+    <sys:String x:Key="txtBarcodeTake">Two Barcode</sys:String>
+    <sys:String x:Key="txtIDcardTake">ID Card</sys:String>
+    <sys:String x:Key="txtCodeTake">Auxiliary Code</sys:String>
+    <sys:String x:Key="txtIDcardFalse">The two generation ID card connection failed please contact the scenic area management personnel</sys:String>
+    <sys:String x:Key="txtIDcardTrue">The two generation ID card equipment connected successfully please brush two generation ID card</sys:String>
+    <sys:String x:Key="txtBarcodeFalse">MMS MMS barcode equipment connected successfully please sweep</sys:String>
+    <sys:String x:Key="txtBarcodeTrue">MMS MMS barcode equipment connected successfully please sweep</sys:String>
+    <sys:String x:Key="txtLinking">Please wait for the device is connected</sys:String>
+    <sys:String x:Key="txtTip">Once sold shall not refund the tickets!</sys:String>
+    <sys:String x:Key="txtBillNoLb">order number：</sys:String>
+    <sys:String x:Key="txtCode">Auxiliary code：</sys:String>
+    <sys:String x:Key="txtQuery">inquiry</sys:String>
+
+    <sys:String x:Key="txtTakeType">Select the way</sys:String>
+    <sys:String x:Key="txtCheckOrder">Select order</sys:String>
+    <sys:String x:Key="txtSelTakeTicket">Select Ticket</sys:String>
+    <sys:String x:Key="txtConfirmTakeTicket">Confirm</sys:String>
+    <sys:String x:Key="txtComplateTake">Complete</sys:String>
+    <sys:String x:Key="txtBillNo">Order Number</sys:String>
+    <sys:String x:Key="txtTradeDate">Tour Dates</sys:String>
+    <sys:String x:Key="txtSelTradeDate6">The ticket</sys:String>
+
+    <sys:String x:Key="txtBuyTip">Ticket Tips</sys:String>
+    <sys:String x:Key="txtBuyTicket">BUY</sys:String>
+    <sys:String x:Key="txtTakeTicket">TAKE</sys:String>
+    <sys:String x:Key="txtCheck">SELECT</sys:String>
+    <sys:String x:Key="txtComfirmInfo">CONFIRM</sys:String>
+    <sys:String x:Key="txtCheckTicket">SELECT TICKET</sys:String>
+    <sys:String x:Key="txtPayOnline">PAYMENT</sys:String>
+    <sys:String x:Key="txtTakeComplate">COMPLETE</sys:String>
+    <sys:String x:Key="txtBuyComplate">COMPLETE</sys:String>
+
+    <sys:String x:Key="txtTicketNumIn">Printable Ticket Number(sheets):</sys:String>
+    <sys:String x:Key="txtBillNumIn">Printable Receipt Number(sheets):</sys:String>
+    <sys:String x:Key="txtTTRNumIn">Printable TTR Number(sheets):</sys:String>
+</ResourceDictionary>
