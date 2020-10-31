@@ -3,3 +3,9 @@
 ################################################################################
 
 /WindowServer/WindowServer.Services/bin/Debug/netcoreapp3.1
+/WindowServer/WindowServer.Services/obj
+/WindowServer/WindowServer.TopSelf/bin/Debug/netcoreapp3.1
+/WindowServer/WindowServer.TopSelf/obj
+/WindowServer/WindowServer.WorkerService/obj
+/WindowServer/.vs/WindowServer
+/.vs
