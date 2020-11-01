@@ -1,13 +1,24 @@
 ﻿using System;
+using System.Collections.Generic;
 using WindowServer.Services.Model;
 
 namespace WindowServer.Services
 {
     public class OrderService : IOrderService
     {
-        public int Count(OrderSearchModel searchModel)
+        public List<OrderDetailModel> GetList(OrderSearchModel searchModel)
         {
-            return new Random().Next(100, 300);
+            var result = new List<OrderDetailModel>();
+            for (var i = 0; i < 20; i++)
+            {
+                result.Add(new OrderDetailModel()
+                {
+                    OrderNo = i.ToString().PadLeft(9),
+                    CreateTime=DateTime.Now,
+                    CustomerName=$"顾客{i}",
+                }) ;
+            }
+            return result;
         }
     }
 }

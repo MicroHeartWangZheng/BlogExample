@@ -5,6 +5,6 @@ namespace WindowServer.Services
 {
     public interface IOrderService
     {
-        public int Count(OrderSearchModel searchModel);
+        public List<OrderDetailModel> GetList(OrderSearchModel searchModel);
     }
 }
