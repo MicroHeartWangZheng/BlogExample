@@ -13,9 +13,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "后台服务", "后台服�
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RabbitMQ", "RabbitMQ", "{C3111113-B893-41F8-B61B-BE01C83EEE9D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQSender", "RabbitMQSender\RabbitMQSender.csproj", "{D4116154-9A0B-483D-9906-F65A94341EF9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMQSender", "RabbitMQSender\RabbitMQSender.csproj", "{D4116154-9A0B-483D-9906-F65A94341EF9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQReceiver", "RabbitMQReceiver\RabbitMQReceiver.csproj", "{B01A080B-85F5-4AE0-A27A-D5F3B9355874}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMQReceiver", "RabbitMQReceiver\RabbitMQReceiver.csproj", "{B01A080B-85F5-4AE0-A27A-D5F3B9355874}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpressionExam", "ExpressionExam\ExpressionExam.csproj", "{718F905E-96A0-4C0D-B2D0-3FF61C292E5C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +45,10 @@ Global
 		{B01A080B-85F5-4AE0-A27A-D5F3B9355874}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B01A080B-85F5-4AE0-A27A-D5F3B9355874}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B01A080B-85F5-4AE0-A27A-D5F3B9355874}.Release|Any CPU.Build.0 = Release|Any CPU
+		{718F905E-96A0-4C0D-B2D0-3FF61C292E5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{718F905E-96A0-4C0D-B2D0-3FF61C292E5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{718F905E-96A0-4C0D-B2D0-3FF61C292E5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{718F905E-96A0-4C0D-B2D0-3FF61C292E5C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
