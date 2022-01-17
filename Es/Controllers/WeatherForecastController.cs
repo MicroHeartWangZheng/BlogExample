@@ -34,6 +34,19 @@ namespace Es.Controllers
                                                              q.Range(r => r.Field(f => f.Age).LessThan(30)) &&
                                                              q.Term(t => t.Gender, true)));
 
+            var user = new User()
+            {
+                Age = 18,
+                Gender = false,
+                Name = "test"
+            };
+            var resp4 = client.Update<User>(20, u => u.Index(indexName).Doc(user));
+
+            var resp5 = client.UpdateByQuery<User>(u => u.Index(indexName)
+                                              .Query(q => q.Range(r => r.Field(f => f.Age).GreaterThan(18)) &&
+                                                          q.Range(r => r.Field(f => f.Age).LessThan(30))).Script("age=18"));
+
+            client.Indices.UpdateSettings
         }
     }
 }
