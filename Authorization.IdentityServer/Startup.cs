@@ -20,20 +20,20 @@ namespace Authorization.IdentityServer
 
         public void ConfigureServices(IServiceCollection services)
         {
-            // uncomment, if you want to add an MVC-based UI
-            //services.AddControllersWithViews();
-
             var builder = services.AddIdentityServer(options =>
             {
-                // see https://identityserver4.readthedocs.io/en/latest/topics/resources.html
+
                 options.EmitStaticAudienceClaim = true;
             })
                 .AddInMemoryIdentityResources(Config.IdentityResources)
                 .AddInMemoryApiScopes(Config.ApiScopes)
-                .AddInMemoryClients(Config.Clients);
+                .AddInMemoryClients(Config.Clients)
+                .AddInMemoryApiResources(Config.ApiResources)
+                .AddTestUsers(Config.Users);
+
 
             // not recommended for production - you need to store your key material somewhere secure
-            builder.AddDeveloperSigningCredential();
+            builder.AddDeveloperSigningCredential();//指定的开发者证书
         }
 
         public void Configure(IApplicationBuilder app)
