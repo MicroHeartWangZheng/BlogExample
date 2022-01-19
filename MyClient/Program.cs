@@ -45,40 +45,40 @@ namespace MyClient
 
 
             #region
-            //var client = new HttpClient();
-            //var disco = client.GetDiscoveryDocumentAsync("https://localhost:5001/").Result;
-            //if (disco.IsError)
-            //{
-            //    Console.WriteLine(disco.Error);
-            //    return;
-            //}
+            var client = new HttpClient();
+            var disco = client.GetDiscoveryDocumentAsync("https://localhost:5001/").Result;
+            if (disco.IsError)
+            {
+                Console.WriteLine(disco.Error);
+                return;
+            }
 
-            //var tokenResponse = client.RequestPasswordTokenAsync(new PasswordTokenRequest()
-            //{
-            //    Address = disco.TokenEndpoint,
-            //    ClientId = "PassPattern",
-            //    ClientSecret = "PassPatternSecret",
-            //    Scope = "ClientScope openid profile",
-            //    UserName = "name",
-            //    Password = "password",
-            //}).Result;
+            var tokenResponse = client.RequestPasswordTokenAsync(new PasswordTokenRequest()
+            {
+                Address = disco.TokenEndpoint,
+                ClientId = "PassPattern",
+                ClientSecret = "PassPatternSecret",
+                Scope = "ClientScope openid profile offline_access",
+                UserName = "admin",
+                Password = "123456",
+            }).Result;
 
-            //var token = tokenResponse.AccessToken;
-            //Console.Write(token);
+            var token = tokenResponse.AccessToken;
+            Console.Write(token);
 
 
-            //HttpClient apiClient = new HttpClient();
-            //var userResponse = apiClient.GetUserInfoAsync(new UserInfoRequest()
-            //{
-            //    Token = token,
-            //    Address = disco.UserInfoEndpoint,
-            //}).Result;
+            HttpClient apiClient = new HttpClient();
+            var userResponse = apiClient.GetUserInfoAsync(new UserInfoRequest()
+            {
+                Token = token,
+                Address = disco.UserInfoEndpoint,
+            }).Result;
 
-            //HttpClient apiClient1 = new HttpClient();
-            //apiClient1.SetBearerToken(token);
-            //var response = apiClient1.GetAsync("https://localhost:7001/identity/GetResource").Result;
+            HttpClient apiClient1 = new HttpClient();
+            apiClient1.SetBearerToken(token);
+            var response = apiClient1.GetAsync("https://localhost:7001/identity/GetResource").Result;
 
-            //var content = response.Content.ReadAsStringAsync().Result;
+            var content = response.Content.ReadAsStringAsync().Result;
 
             #endregion
 
